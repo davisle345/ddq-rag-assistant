@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="700" viewBox="0 0 1024 700" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Page background (dark) -->
+  <rect width="1024" height="700" fill="#0a0f1c"/>
+
+  <!-- Header -->
+  <rect x="14" y="14" width="996" height="92" rx="14" fill="url(#hdr)"/>
+  <text x="512" y="56" text-anchor="middle" fill="#ffffff" font-size="30" font-weight="700">&#129302; DDQ Assistant</text>
+  <text x="512" y="84" text-anchor="middle" fill="#e6e9ff" font-size="14">AI-powered Due Diligence Questionnaire automation</text>
+
+  <!-- Tabs -->
+  <text x="30" y="134" fill="#94a3b8" font-size="15">&#128172; Chat</text>
+  <text x="120" y="134" fill="#94a3b8" font-size="15">&#128196; Document Scanner</text>
+  <text x="330" y="134" fill="#c7d2fe" font-size="15" font-weight="700">&#128202; Analytics</text>
+  <rect x="328" y="144" width="92" height="3" rx="1.5" fill="#818cf8"/>
+  <line x1="14" y1="156" x2="1010" y2="156" stroke="#1e2a3d" stroke-width="1.5"/>
+
+  <!-- Section header (amber accent) -->
+  <rect x="14" y="170" width="996" height="92" rx="12" fill="#2a2310"/>
+  <text x="40" y="208" fill="#fbbf24" font-size="22" font-weight="700">&#128202; Performance Analytics</text>
+  <text x="40" y="238" fill="#fde68a" font-size="15">Track usage, cost savings, and system performance metrics.</text>
+
+  <!-- Usage statistics (rendered like the app's markdown output) -->
+  <text x="30" y="304" fill="#e5e7eb" font-size="20" font-weight="700">&#128202; Usage Statistics</text>
+
+  <text x="34" y="346" fill="#94a3b8" font-size="15">&#9702;</text>
+  <text x="56" y="346" fill="#cbd5e1" font-size="16"><tspan font-weight="700" fill="#e5e7eb">Total Queries:</tspan> 36</text>
+
+  <text x="34" y="382" fill="#94a3b8" font-size="15">&#9702;</text>
+  <text x="56" y="382" fill="#cbd5e1" font-size="16"><tspan font-weight="700" fill="#e5e7eb">Template Hits:</tspan> 11 (30.6%)</text>
+
+  <text x="34" y="418" fill="#94a3b8" font-size="15">&#9702;</text>
+  <text x="56" y="418" fill="#cbd5e1" font-size="16"><tspan font-weight="700" fill="#e5e7eb">LLM Calls:</tspan> 25</text>
+
+  <text x="34" y="454" fill="#94a3b8" font-size="15">&#9702;</text>
+  <text x="56" y="454" fill="#cbd5e1" font-size="16"><tspan font-weight="700" fill="#e5e7eb">Estimated Cost Saved:</tspan> <tspan fill="#34d399" font-weight="700">$0.22</tspan></text>
+
+  <text x="34" y="490" fill="#94a3b8" font-size="15">&#9702;</text>
+  <text x="56" y="490" fill="#cbd5e1" font-size="16"><tspan font-weight="700" fill="#e5e7eb">Cache Hit Rate:</tspan> 30.6%</text>
+
+  <!-- Refresh button (full width) -->
+  <rect x="14" y="520" width="996" height="44" rx="8" fill="#2f3744"/>
+  <text x="512" y="547" text-anchor="middle" fill="#e5e7eb" font-size="15" font-weight="600">&#128260; Refresh Stats</text>
+
+  <!-- Cost optimization note -->
+  <rect x="14" y="588" width="996" height="64" rx="10" fill="#0f2417"/>
+  <rect x="14" y="588" width="5" height="64" fill="#22c55e"/>
+  <text x="40" y="626" fill="#4ade80" font-size="15"><tspan font-weight="700">&#128176; Cost Optimization:</tspan> Template answers bypass expensive LLM calls, saving time and money while maintaining accuracy.</text>
+</svg>
