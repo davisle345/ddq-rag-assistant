@@ -72,19 +72,19 @@ LLM cost saved (modest, but it makes the caching visible).
 
 ```
                 ┌──────────────────────────┐
-                │  Historical DDQ answers   │
-                │  (CSV knowledge base)     │
+                │  Historical DDQ answers  │
+                │  (CSV knowledge base)    │
                 └────────────┬─────────────┘
                              │  embed (MiniLM)
                              ▼
    question ─▶ preprocess ─▶ FAISS vector search ─▶ top-k Q/A pairs
                   │                                      │
-        template cache hit?                       build context
+         template cache hit?                       build context
                   │ yes                                  │
-                  ▼                                       ▼
-            instant answer                    LLM (AWS Bedrock, Llama 3.3 70B)
-                                                          │
-                                                          ▼
+                  ▼                                      ▼
+            instant answer                 LLM (AWS Bedrock, Llama 3.3 70B)
+                                                         │
+                                                         ▼
                                        structured answer + summary + confidence
 ```
 
