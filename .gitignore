@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables / secrets (NEVER commit real credentials)
+.env
+*.pem
+*.key
+
+# Generated exports
+ddq_exports/*.csv
+
+# Your real knowledge base and policy documents (keep private)
+data/*.csv
+!data/sample_ddq_knowledge_base.csv
+policies/*.pdf
+policies/*.docx
+policies/*.doc
+
+# Local DDQ documents to be scanned
+*.docx
+*.doc
+
+# Logs / temp
+*.log
+temp_extracted.md
+extracted_text.txt
+optimized_output.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradio cache
+gradio_cached_examples/
+.gradio/
