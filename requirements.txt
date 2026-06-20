@@ -1,0 +1,26 @@
+# DDQ RAG Assistant - Python dependencies
+# Tested with Python 3.10+
+
+# --- Data processing ---
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Web UI ---
+gradio>=4.0.0
+
+# --- RAG / LLM pipeline ---
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-aws>=0.1.0          # AWS Bedrock integration
+
+# --- Embeddings + vector search ---
+sentence-transformers>=2.2.2  # provides the HuggingFace embedding model
+faiss-cpu>=1.7.4              # use faiss-gpu if you have CUDA
+
+# --- Environment variables ---
+python-dotenv>=1.0.0
+
+# --- Document parsing (Document Scanner + bulk import) ---
+pdfplumber>=0.10.0           # PDF text/table extraction
+python-docx>=1.1.0           # Word document parsing
