@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="820" viewBox="0 0 1024 820" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Page background (dark) -->
+  <rect width="1024" height="820" fill="#0a0f1c"/>
+
+  <!-- Header -->
+  <rect x="14" y="14" width="996" height="92" rx="14" fill="url(#hdr)"/>
+  <text x="512" y="56" text-anchor="middle" fill="#ffffff" font-size="30" font-weight="700">&#129302; DDQ Assistant</text>
+  <text x="512" y="84" text-anchor="middle" fill="#e6e9ff" font-size="14">AI-powered Due Diligence Questionnaire automation</text>
+
+  <!-- Tabs -->
+  <text x="30" y="134" fill="#94a3b8" font-size="15">&#128172; Chat</text>
+  <text x="120" y="134" fill="#c7d2fe" font-size="15" font-weight="700">&#128196; Document Scanner</text>
+  <rect x="118" y="144" width="186" height="3" rx="1.5" fill="#818cf8"/>
+  <text x="360" y="134" fill="#94a3b8" font-size="15">&#128202; Analytics</text>
+  <line x1="14" y1="156" x2="1010" y2="156" stroke="#1e2a3d" stroke-width="1.5"/>
+
+  <!-- Section header -->
+  <rect x="14" y="170" width="996" height="92" rx="12" fill="#141b2d"/>
+  <text x="40" y="208" fill="#93c5fd" font-size="22" font-weight="700">&#128196; Automated Document Processing</text>
+  <text x="40" y="238" fill="#cbd5e1" font-size="15">Upload your DDQ document and let AI automatically answer all questions. Supports PDF and Word formats.</text>
+
+  <!-- Upload area -->
+  <rect x="14" y="282" width="590" height="250" rx="12" fill="#0e1524" stroke="#243049"/>
+  <rect x="14" y="282" width="368" height="36" rx="8" fill="#5b6fe6"/>
+  <text x="30" y="306" fill="#ffffff" font-size="14" font-weight="700">&#128196; Upload DDQ Document (PDF or Word)</text>
+  <text x="309" y="392" text-anchor="middle" fill="#cbd5e1" font-size="28">&#11014;</text>
+  <text x="309" y="430" text-anchor="middle" fill="#e5e7eb" font-size="17" font-weight="600">Drop File Here</text>
+  <text x="309" y="456" text-anchor="middle" fill="#94a3b8" font-size="14">- or -</text>
+  <text x="309" y="482" text-anchor="middle" fill="#e5e7eb" font-size="16">Click to Upload</text>
+
+  <!-- Process button -->
+  <rect x="14" y="552" width="590" height="50" rx="25" fill="url(#btn)"/>
+  <text x="309" y="583" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">&#128640; Process Document</text>
+
+  <!-- What happens card -->
+  <rect x="636" y="282" width="374" height="170" rx="12" fill="#0e1524" stroke="#243049"/>
+  <text x="660" y="314" fill="#e5e7eb" font-size="15" font-weight="700">&#128203; What happens:</text>
+  <text x="660" y="344" fill="#cbd5e1" font-size="14">&#8226; Questions are automatically extracted</text>
+  <text x="660" y="372" fill="#cbd5e1" font-size="14">&#8226; AI answers each question</text>
+  <text x="660" y="400" fill="#cbd5e1" font-size="14">&#8226; Results saved to ddq_exports/</text>
+  <text x="660" y="428" fill="#cbd5e1" font-size="14">&#8226; Includes confidence levels</text>
+
+  <!-- View full results accordion -->
+  <rect x="14" y="624" width="996" height="44" rx="8" fill="#0e1524" stroke="#243049"/>
+  <text x="32" y="651" fill="#e5e7eb" font-size="15" font-weight="600">&#128221; View Full Results</text>
+  <text x="986" y="651" text-anchor="end" fill="#94a3b8" font-size="14">&#9664;</text>
+
+  <!-- Download CSV + results area -->
+  <rect x="14" y="684" width="996" height="122" rx="8" fill="#0e1524" stroke="#243049"/>
+  <rect x="14" y="684" width="220" height="36" rx="8" fill="#5b6fe6"/>
+  <text x="30" y="708" fill="#ffffff" font-size="14" font-weight="700">&#128196; Download CSV File</text>
+  <!-- faint placeholder document glyph -->
+  <g stroke="#33425c" stroke-width="2" fill="none">
+    <path d="M500 748 h22 l8 8 v30 a2 2 0 0 1 -2 2 h-28 a2 2 0 0 1 -2 -2 v-36 a2 2 0 0 1 2 -2 z"/>
+    <path d="M522 748 v8 h8"/>
+  </g>
+</svg>
