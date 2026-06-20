@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="720" viewBox="0 0 1024 720" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="hdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+    <clipPath id="chatclip">
+      <rect x="16" y="222" width="656" height="482" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Page background (dark) -->
+  <rect width="1024" height="720" fill="#0a0f1c"/>
+
+  <!-- Header (fixed) -->
+  <rect x="14" y="14" width="996" height="92" rx="14" fill="url(#hdr)"/>
+  <text x="512" y="56" text-anchor="middle" fill="#ffffff" font-size="30" font-weight="700">&#129302; DDQ Assistant</text>
+  <text x="512" y="84" text-anchor="middle" fill="#e6e9ff" font-size="14">AI-powered Due Diligence Questionnaire automation</text>
+
+  <!-- Tabs (fixed) -->
+  <text x="30" y="134" fill="#c7d2fe" font-size="15" font-weight="700">&#128172; Chat</text>
+  <rect x="28" y="144" width="58" height="3" rx="1.5" fill="#818cf8"/>
+  <text x="150" y="134" fill="#94a3b8" font-size="15">&#128196; Document Scanner</text>
+  <text x="360" y="134" fill="#94a3b8" font-size="15">&#128202; Analytics</text>
+  <line x1="14" y1="156" x2="1010" y2="156" stroke="#1e2a3d" stroke-width="1.5"/>
+
+  <!-- Info bar (fixed) -->
+  <rect x="14" y="168" width="996" height="40" rx="8" fill="#141b2d"/>
+  <text x="32" y="193" fill="#cbd5e1" font-size="13.5">&#128161; Ask questions about security, compliance, certifications, or any DDQ topic. Powered by your historical DDQ data from 2022+.</text>
+
+  <!-- Left panel background + border (fixed) -->
+  <rect x="14" y="220" width="660" height="486" rx="12" fill="#0e1524" stroke="#1e2a3d"/>
+
+  <!-- Scrolling chat content (clipped) -->
+  <g clip-path="url(#chatclip)">
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        dur="16s" repeatCount="indefinite"
+        keyTimes="0;0.10;0.45;0.62;0.92;1"
+        values="0 0; 0 0; 0 -300; 0 -300; 0 0; 0 0"
+        calcMode="spline"
+        keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1"/>
+
+      <!-- User bubble -->
+      <rect x="40" y="234" width="596" height="96" rx="14" fill="#1b2436" stroke="#2c3a55"/>
+      <text x="58" y="258" fill="#e5e7eb" font-size="14">Do you have a formal compliance program and/or employee code of ethics</text>
+      <text x="58" y="277" fill="#e5e7eb" font-size="14">with policies and procedures regarding the prevention of insider trading and</text>
+      <text x="58" y="296" fill="#e5e7eb" font-size="14">receipt of material, non-public information ("MNPI") and employee personal</text>
+      <text x="58" y="315" fill="#e5e7eb" font-size="14">trading? If so, please briefly describe and attach a copy of your policies.</text>
+
+      <!-- Confidence -->
+      <rect x="40" y="346" width="20" height="20" rx="4" fill="#16351f"/>
+      <text x="44" y="362" font-size="14">&#9989;</text>
+      <text x="68" y="362" fill="#34d399" font-size="14" font-weight="700">High Confidence - Based on 4 consistent source(s)</text>
+
+      <text x="40" y="390" fill="#e5e7eb" font-size="14.5" font-weight="700">Supporting Evidence:</text>
+
+      <!-- Source 1 -->
+      <text x="40" y="418" fill="#cbd5e1" font-size="14"><tspan font-weight="700">1. Source:</tspan> [Northwind Capital Management LP, Feb 2023]</text>
+      <text x="66" y="442" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">Q:</tspan> 'Do you have a formal compliance program and/or employee code of ethics</text>
+      <text x="84" y="460" fill="#9aa6b8" font-size="13.5">with policies and procedures regarding the prevention of insider trading and</text>
+      <text x="84" y="478" fill="#9aa6b8" font-size="13.5">receipt of MNPI and employee personal trading? If so, please briefly describe</text>
+      <text x="84" y="496" fill="#9aa6b8" font-size="13.5">and attach a copy of your compliance policies or employee code of conduct.'</text>
+      <text x="66" y="520" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">A:</tspan> 'Yes - Please see the attached Acme Analytics - MNPI Insider Trading Policy'</text>
+      <text x="66" y="544" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">Explanation:</tspan> This Q/A pair directly addresses having a formal compliance</text>
+      <text x="84" y="562" fill="#9aa6b8" font-size="13.5">program regarding insider trading and MNPI.</text>
+
+      <!-- Source 2 -->
+      <text x="40" y="592" fill="#cbd5e1" font-size="14"><tspan font-weight="700">2. Source:</tspan> [Cedar Grove Partners LP, Jan 2025]</text>
+      <text x="66" y="616" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">Q:</tspan> 'Do you have a compliance manual? Do you have any protections against</text>
+      <text x="84" y="634" fill="#9aa6b8" font-size="13.5">receiving material non-public or confidential information during data collection?</text>
+      <text x="84" y="652" fill="#9aa6b8" font-size="13.5">Please provide your policies on handling insider trading and MNPI.'</text>
+      <text x="66" y="676" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">A:</tspan> 'YES - InfoSec Policy, MNPI training as well.'</text>
+      <text x="66" y="700" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">Explanation:</tspan> Provides additional detail on the compliance manual and</text>
+      <text x="84" y="718" fill="#9aa6b8" font-size="13.5">protections against MNPI, supporting a formal compliance program.</text>
+
+      <!-- Source 3 -->
+      <text x="40" y="748" fill="#cbd5e1" font-size="14"><tspan font-weight="700">3. Source:</tspan> [Atlas Asset Management LLC, Sep 2025]</text>
+      <text x="66" y="772" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">Q:</tspan> 'Internal compliance policies and procedures including those related to</text>
+      <text x="84" y="790" fill="#9aa6b8" font-size="13.5">insider trading and the handling of material non-public information (MNPI).'</text>
+      <text x="66" y="814" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">A:</tspan> '<tspan fill="#60a5fa" text-decoration="underline">https://acme.example/privacy-policy</tspan>'</text>
+      <text x="66" y="838" fill="#9aa6b8" font-size="13.5"><tspan font-weight="700" fill="#cbd5e1">Explanation:</tspan> Indicates the presence of internal compliance policies and</text>
+      <text x="84" y="856" fill="#9aa6b8" font-size="13.5">procedures relevant to the overall compliance program.</text>
+
+      <!-- Summary answer (bottom of the scroll) -->
+      <text x="40" y="888" fill="#e5e7eb" font-size="14.5" font-weight="700">Summary Answer:</text>
+      <text x="40" y="912" fill="#cbd5e1" font-size="13.5">Yes, we have a formal compliance program with policies and procedures</text>
+      <text x="40" y="930" fill="#cbd5e1" font-size="13.5">regarding the prevention of insider trading and receipt of material, non-public</text>
+      <text x="40" y="948" fill="#cbd5e1" font-size="13.5">information ("MNPI") and employee personal trading, including an MNPI Insider</text>
+      <text x="40" y="966" fill="#cbd5e1" font-size="13.5">Trading Policy and InfoSec Policy, as well as MNPI training.</text>
+      <text x="40" y="992" fill="#cbd5e1" font-size="13.5"><tspan font-weight="700" fill="#e5e7eb">Attached Documents:</tspan> Insider Trading Policy, Information Security Policy (InfoSec)</text>
+    </g>
+  </g>
+
+  <!-- Scrollbar track + animated thumb -->
+  <rect x="662" y="230" width="6" height="468" rx="3" fill="#16203a"/>
+  <rect x="662" y="234" width="6" height="100" rx="3" fill="#334155">
+    <animate attributeName="y"
+      dur="16s" repeatCount="indefinite"
+      keyTimes="0;0.10;0.45;0.62;0.92;1"
+      values="234;234;602;602;234;234"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1"/>
+  </rect>
+
+  <!-- Clear-chat trash icon (top-right of chat box, fixed) -->
+  <g stroke="#94a3b8" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="639" y1="242" x2="655" y2="242"/>
+    <path d="M645 242 v-3 h4 v3"/>
+    <path d="M641 242 l1 14 h10 l1 -14"/>
+    <line x1="644" y1="245" x2="644" y2="252"/>
+    <line x1="647" y1="245" x2="647" y2="252"/>
+    <line x1="650" y1="245" x2="650" y2="252"/>
+  </g>
+
+  <!-- Right panel: summary + documents (fixed) -->
+  <rect x="686" y="220" width="324" height="486" rx="12" fill="#0e1524" stroke="#1e2a3d"/>
+  <text x="704" y="248" fill="#a5b4fc" font-size="17" font-weight="700">&#128203; Summary Answer</text>
+  <text x="704" y="270" fill="#94a3b8" font-size="12.5">Clean answer ready to copy</text>
+
+  <rect x="702" y="284" width="292" height="196" rx="10" fill="#0b1220" stroke="#243049"/>
+  <text x="716" y="310" fill="#cbd5e1" font-size="12.5">
+    <tspan x="716" dy="0">Yes, we have a formal compliance program</tspan>
+    <tspan x="716" dy="18">with policies and procedures regarding the</tspan>
+    <tspan x="716" dy="18">prevention of insider trading and receipt of</tspan>
+    <tspan x="716" dy="18">material, non-public information ("MNPI") and</tspan>
+    <tspan x="716" dy="18">employee personal trading, including an MNPI</tspan>
+    <tspan x="716" dy="18">Insider Trading Policy and InfoSec Policy, as</tspan>
+    <tspan x="716" dy="18">well as MNPI training.</tspan>
+  </text>
+
+  <rect x="702" y="492" width="292" height="36" rx="8" fill="#5b6fe6"/>
+  <text x="848" y="515" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">&#128203; Copy to Clipboard</text>
+
+  <!-- Supporting documents with auto-attached downloadable links -->
+  <text x="704" y="558" fill="#a5b4fc" font-size="16" font-weight="700">&#128206; Supporting Documents</text>
+  <text x="704" y="577" fill="#94a3b8" font-size="12.5">Download relevant policies</text>
+
+  <!-- Document chip 1 -->
+  <rect x="702" y="590" width="292" height="40" rx="8" fill="#0b1220" stroke="#2f3f5c"/>
+  <text x="714" y="615" fill="#cbd5e1" font-size="12.5">MNPI Insider Trading&#8230;.pdf</text>
+  <text x="940" y="615" text-anchor="end" fill="#93c5fd" font-size="11.5">79.9 KB</text>
+  <text x="956" y="615" fill="#93c5fd" font-size="13">&#8595;</text>
+  <text x="980" y="615" fill="#64748b" font-size="13">&#215;</text>
+
+  <!-- Document chip 2 -->
+  <rect x="702" y="636" width="292" height="40" rx="8" fill="#0b1220" stroke="#2f3f5c"/>
+  <text x="714" y="661" fill="#cbd5e1" font-size="12.5">Information Security&#8230;.pdf</text>
+  <text x="940" y="661" text-anchor="end" fill="#93c5fd" font-size="11.5">447.0 KB</text>
+  <text x="956" y="661" fill="#93c5fd" font-size="13">&#8595;</text>
+  <text x="980" y="661" fill="#64748b" font-size="13">&#215;</text>
+</svg>
