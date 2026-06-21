@@ -300,4 +300,4 @@ providers does not require re-indexing.
 
 ## License
 
-[MIT](LICENSE)
+MIT — see [LICENSE](LICENSE).
